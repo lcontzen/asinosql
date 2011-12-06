@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  6 DEC 2011 10:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  6 DEC 2011 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,24 +407,25 @@ e
 \tf@toc=\write3
 \openout3 = `asi.toc'.
 
- [1] (./asi.aux) ) 
+ [1] [2] (./asi.aux) ) 
 Here is how much of TeX's memory you used:
- 2571 strings out of 493633
- 33263 string characters out of 3148831
- 90164 words of memory out of 3000000
- 5842 multiletter control sequences out of 15000+200000
- 7797 words of font info for 20 fonts, out of 3000000 for 9000
+ 2573 strings out of 493633
+ 33288 string characters out of 3148831
+ 91164 words of memory out of 3000000
+ 5843 multiletter control sequences out of 15000+200000
+ 8580 words of font info for 21 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  37i,4n,24p,236b,152s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.e
-nc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/
-texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/font
-s/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/
-cm-super/sfrm1728.pfb>
-Output written on asi.pdf (2 pages, 58228 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-
+t1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/
+fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+rm1728.pfb>
+Output written on asi.pdf (3 pages, 83994 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
