@@ -5,6 +5,7 @@
 \usepackage{verbatim}
 \usepackage{graphicx}
 \usepackage{fullpage}
+\usepackage{hyperref}
 \author{Contzen Laurent}
 
 \begin{document}
@@ -41,7 +42,45 @@ Les bases de données ont toujours été quelque chose de fondamental en informa
 Au départ, chaque système était lié à sa propre base de données, étudiée et optimisée pour lui. Ceci posait évidemment, comme beaucoup de choses à cette époque, de gros problèmes de portabilité de données et changer un système informatique avait d'énormes implications. Il était donc nécéssaire et urgent de standardiser ça, chose qui a été faite par le Database Task Group qui proposa en 1971 un standard qui fut connu en tant que ``Codasyl Approach''. Cette approche était navigationnelle et basée sur une navigation manuelle d'un ensemble d'informations disposées en ``réseau''. \\
 C'est ensuite dans les années 1970 qu'un ingénieur travaillant chez IBM, Edgar Codd, révolutionna le monde des bases de données avec son article ``A Relational Model of Data for Large Shared Data Banks'' qui posa les fondations des bases de données relationnelles. Les principes énoncés dans cet articles furent implémentés, testés, et un langage de requêtes standardisé, le SQL, fit son apparition en même temps. \\
 Les bases de données relationnelles utilisant SQL se sont très vite répandues et plusieures implémentations apparurent telles que DB2, Microsoft SQL Server, PostgreSQL, MySQL, etc. \\
-C'est ensuite bien plus récemment, vers la fin des années 2000, que ce modèle a été remis en question et que plusieurs modèles de bases de données non relationnelles sont apparus. 
+C'est ensuite bien plus récemment, vers la fin des années 2000, que ce modèle a été remis en question et que plusieurs modèles de bases de données non relationnelles sont apparus.
+\section{Le modèle relationnel}
+Pour pouvoir comprendre les différences entre le modèle relationnel et la mouvance qui nous occupe ici, commençons par décrire ce modèle historique. \\
+Dans une base de données relationnelle, les données sont organisées sous forme de tables. Dans ces tables, les colonnes sont les champs, et le contenu des lignes les données. Une ligne d'une table est donc un ensemble de données contenant les différents champs de la table pour une même entité FIXME. Par exemple, immaginons une table Characters contenant les informations sur des personnages de séries. Imaginons que les informations nécéssaires sur un personnage sont son ID, son nom, la série de laquelle il vient et l'acteur qui le jouait. La table Characters pourra être : \\
+%% \begin{figure}[H]
+%%   \centering
+
+\begin{center}
+  \begin{tabular}{| c | l | l | l | l |}
+    \hline
+    \textbf{\underline{Id}} & \textbf{Name} & \textbf{Show} & \textbf{Actor} \\
+    \hline
+    \hline
+    1 & Jackson Teller & Sons of Anarchy & Charlie Hunnam \\
+    \hline
+    2 & John Dorian & Scrubs & Zach Braff  \\
+    \hline
+    3 & Bill Adama & Battlestar Galactica & Edward James Olmos \\
+    \hline
+    4 & Kara Thrace & Battlestar Galactica & Katee Sackhoff \\
+    \hline
+    5 & Tyrion Lannister & Game of Thrones & Peter Dinklage \\
+    \hline
+    6 & Ted Mosby & How I Met Your Mother & Josh Radnor \\
+    \hline
+    7 & Seth Bullock & Deadwood & Timothy Oliphant \\
+    \hline
+    8 & Tobias Beecher & Oz & Lee Tergesen \\
+    \hline
+    9 & Emily Sullivan & Jericho & Ashley Scott \\
+    \hline
+    10 & Jimmy McNulty & The Wire & Dominic West \\
+    \hline
+  \end{tabular}
+\end{center}
+
+%%   \caption{Exemple de table User dans une base de données relationnelle.}
+%% \end{figure}
+
 \section{Différences fondamentales avec les bases de données relationnelles}
 
 \section{Les grandes familles}
@@ -56,6 +95,18 @@ C'est ensuite bien plus récemment, vers la fin des années 2000, que ce modèle
 \subsection{Les autres bases de données}
 
 \section{Conclusion}
+
+\section*{Sources}
+\url{http://www.thoughtworks.com/articles/nosql-comparison} \\
+\url{http://www.linuxjournal.com/article/10770} \\
+\url{http://nosql-databases.org/} \\
+\url{http://nosql-database.org/links.html} \\
+\url{http://en.wikipedia.org/wiki/NoSQL} \\
+\url{http://en.wikipedia.org/wiki/Dbms} \\
+\url{http://en.wikipedia.org/wiki/NoSQL_(RDBMS)} \\
+\url{http://stackoverflow.com/questions/3596461/is-there-any-good-book-on-nosql} \\
+\url{http://www.computerworld.com/s/article/9135086/No_to_SQL_Anti_database_movement_gains_steam_} \\
+\url{http://blog.xebia.fr/2010/04/21/nosql-europe-tour-dhorizon-des-bases-de-donnees-nosql/} \\
 
 
 \end{document}
