@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Historique}{}% 2
+\BOOKMARK [1][-]{section.3}{Le mod\350le relationnel}{}% 3
+\BOOKMARK [1][-]{section.4}{ACID et CAP}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{ACID}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{CAP}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Diff\351rents use-cases}{}% 7
+\BOOKMARK [1][-]{section.6}{Les grandes familles}{}% 8
+\BOOKMARK [2][-]{subsection.6.1}{Les bases de donn\351es de type Key-Value}{section.6}% 9
+\BOOKMARK [2][-]{subsection.6.2}{Les bases de donn\351es orient\351es document}{section.6}% 10
+\BOOKMARK [2][-]{subsection.6.3}{Les bases de donn\351es orient\351es colonnes}{section.6}% 11
+\BOOKMARK [2][-]{subsection.6.4}{Les bases de donn\351es orient\351es graphe}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.5}{Les autres bases de donn\351es}{section.6}% 13
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 14

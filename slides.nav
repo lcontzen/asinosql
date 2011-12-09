@@ -1,0 +1,71 @@
+\beamer@endinputifotherversion {3.10pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {1}{Historique}{3}{Historique}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{0}{4}{4/7}{}{0}}
+\headcommand {\beamer@framepages {4}{7}}
+\headcommand {\sectionentry {2}{Le mod\IeC {\`e}le relationnel}{8}{Le mod\IeC {\`e}le relationnel}{0}}
+\headcommand {\beamer@sectionpages {3}{7}}
+\headcommand {\beamer@subsectionpages {3}{7}}
+\headcommand {\slideentry {2}{0}{5}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{0}{6}{9/12}{}{0}}
+\headcommand {\beamer@framepages {9}{12}}
+\headcommand {\slideentry {2}{0}{7}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{0}{8}{14/16}{}{0}}
+\headcommand {\beamer@framepages {14}{16}}
+\headcommand {\slideentry {2}{0}{9}{17/20}{}{0}}
+\headcommand {\beamer@framepages {17}{20}}
+\headcommand {\sectionentry {3}{ACID et CAP}{21}{ACID et CAP}{0}}
+\headcommand {\beamer@sectionpages {8}{20}}
+\headcommand {\beamer@subsectionpages {8}{20}}
+\headcommand {\slideentry {3}{0}{10}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {3}{0}{11}{22/25}{}{0}}
+\headcommand {\beamer@framepages {22}{25}}
+\headcommand {\slideentry {3}{0}{12}{26/29}{}{0}}
+\headcommand {\beamer@framepages {26}{29}}
+\headcommand {\sectionentry {4}{Diff\IeC {\'e}rents cas d'utilisation}{30}{Diff\IeC {\'e}rents cas d'utilisation}{0}}
+\headcommand {\beamer@sectionpages {21}{29}}
+\headcommand {\beamer@subsectionpages {21}{29}}
+\headcommand {\slideentry {4}{0}{13}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {4}{0}{14}{31/32}{}{0}}
+\headcommand {\beamer@framepages {31}{32}}
+\headcommand {\sectionentry {5}{Les diff\IeC {\'e}rents types de bases de donn\IeC {\'e}es NoSQL}{33}{Les diff\IeC {\'e}rents types de bases de donn\IeC {\'e}es NoSQL}{0}}
+\headcommand {\beamer@sectionpages {30}{32}}
+\headcommand {\beamer@subsectionpages {30}{32}}
+\headcommand {\slideentry {5}{0}{15}{33/33}{}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {5}{0}{16}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{35}{Key-Value}}\headcommand {\beamer@subsectionpages {33}{34}}
+\headcommand {\slideentry {5}{1}{1}{35/35}{Key-Value}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {5}{1}{2}{36/41}{Key-Value}{0}}
+\headcommand {\beamer@framepages {36}{41}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{42}{Document-oriented}}\headcommand {\beamer@subsectionpages {35}{41}}
+\headcommand {\slideentry {5}{2}{1}{42/42}{Document-oriented}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {5}{2}{2}{43/46}{Document-oriented}{0}}
+\headcommand {\beamer@framepages {43}{46}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{47}{Columns-oriented}}\headcommand {\beamer@subsectionpages {42}{46}}
+\headcommand {\slideentry {5}{3}{1}{47/47}{Columns-oriented}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {5}{3}{2}{48/50}{Columns-oriented}{0}}
+\headcommand {\beamer@framepages {48}{50}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{51}{Graph-oriented}}\headcommand {\beamer@subsectionpages {47}{50}}
+\headcommand {\slideentry {5}{4}{1}{51/51}{Graph-oriented}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\beamer@partpages {1}{51}}
+\headcommand {\beamer@subsectionpages {51}{51}}
+\headcommand {\beamer@sectionpages {33}{51}}
+\headcommand {\beamer@documentpages {51}}
+\headcommand {\def \inserttotalframenumber {23}}

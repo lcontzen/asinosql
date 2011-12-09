@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Historique}{3}{0}{1}
+\beamer@sectionintoc {2}{Le mod\IeC {\`e}le relationnel}{8}{0}{2}
+\beamer@sectionintoc {3}{ACID et CAP}{21}{0}{3}
+\beamer@sectionintoc {4}{Diff\IeC {\'e}rents cas d'utilisation}{30}{0}{4}
+\beamer@sectionintoc {5}{Les diff\IeC {\'e}rents types de bases de donn\IeC {\'e}es NoSQL}{33}{0}{5}
+\beamer@subsectionintoc {5}{1}{Key-Value}{35}{0}{5}
+\beamer@subsectionintoc {5}{2}{Document-oriented}{42}{0}{5}
+\beamer@subsectionintoc {5}{3}{Columns-oriented}{47}{0}{5}
+\beamer@subsectionintoc {5}{4}{Graph-oriented}{51}{0}{5}
