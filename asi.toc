@@ -2,11 +2,14 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
 \contentsline {section}{\numberline {2}Historique}{3}{section.2}
 \contentsline {section}{\numberline {3}Le mod\IeC {\`e}le relationnel}{3}{section.3}
-\contentsline {section}{\numberline {4}Diff\IeC {\'e}rences fondamentales avec les bases de donn\IeC {\'e}es relationnelles}{4}{section.4}
-\contentsline {section}{\numberline {5}Les grandes familles}{4}{section.5}
-\contentsline {subsection}{\numberline {5.1}Les bases de donn\IeC {\'e}es de type Key-Value}{4}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Les bases de donn\IeC {\'e}es de orient\IeC {\'e}es document}{4}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Les bases de donn\IeC {\'e}es orient\IeC {\'e}es colonnes}{4}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Les bases de donn\IeC {\'e}es orient\IeC {\'e}es graphe}{4}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Les autres bases de donn\IeC {\'e}es}{4}{subsection.5.5}
-\contentsline {section}{\numberline {6}Conclusion}{4}{section.6}
+\contentsline {section}{\numberline {4}ACID et CAP}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}ACID}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}CAP}{5}{subsection.4.2}
+\contentsline {section}{\numberline {5}Diff\IeC {\'e}rents use-cases}{5}{section.5}
+\contentsline {section}{\numberline {6}Les grandes familles}{6}{section.6}
+\contentsline {subsection}{\numberline {6.1}Les bases de donn\IeC {\'e}es de type Key-Value}{7}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Les bases de donn\IeC {\'e}es orient\IeC {\'e}es document}{8}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Les bases de donn\IeC {\'e}es orient\IeC {\'e}es colonnes}{8}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Les bases de donn\IeC {\'e}es orient\IeC {\'e}es graphe}{9}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Les autres bases de donn\IeC {\'e}es}{10}{subsection.6.5}
+\contentsline {section}{\numberline {7}Conclusion}{10}{section.7}
