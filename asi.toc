@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}Historique}{3}{section.2}
 \contentsline {section}{\numberline {3}Le mod\IeC {\`e}le relationnel}{3}{section.3}
 \contentsline {section}{\numberline {4}ACID et CAP}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}ACID}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}ACID}{5}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}CAP}{5}{subsection.4.2}
-\contentsline {section}{\numberline {5}Diff\IeC {\'e}rents use-cases}{5}{section.5}
+\contentsline {section}{\numberline {5}Diff\IeC {\'e}rents use-cases}{6}{section.5}
 \contentsline {section}{\numberline {6}Les grandes familles}{6}{section.6}
 \contentsline {subsection}{\numberline {6.1}Les bases de donn\IeC {\'e}es de type Key-Value}{7}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Les bases de donn\IeC {\'e}es orient\IeC {\'e}es document}{8}{subsection.6.2}

@@ -50,6 +50,7 @@
 
 \frame{\frametitle{Le modèle relationnel : Exemple de table}
   \begin{center}
+    Characters
     \begin{tabular}{| c | l | l | l | l |}
       \hline
       \textbf{\underline{Id}} & \textbf{Name} & \textbf{Show} & \textbf{Actor} \\
@@ -114,7 +115,7 @@
 
 \frame{\frametitle{CAP}
   \begin{itemize}
-  \item<1-> Théorème CAP
+  \item<1-> Théorème CAP : Impossibilité de garantir les trois principes suivants pour un système à données partagées
   \item<2-> Consistency : Toujours accès à la dernière version de l'information
   \item<3-> Availability : La base de données est toujours en service et réponds toujours aux requêtes.
   \item<4-> Partition tolerance : Entièreté des données accessible même si une partie des serveurs tombe.
@@ -151,7 +152,8 @@
 \subsection{Key-Value}
 \begin{frame}
   \begin{center}
-    \structure{\Huge \insertsubsection}
+    \structure{\Huge \insertsubsection} \\
+    \includegraphics[height=2cm,keepaspectratio]{keyvalue.png}
   \end{center}
 \end{frame}
 
@@ -169,7 +171,8 @@
 \subsection{Document-oriented}
 \begin{frame}
   \begin{center}
-    \structure{\Huge \insertsubsection}
+    \structure{\Huge \insertsubsection} \\
+    \includegraphics[height=3cm,keepaspectratio]{document.png}
   \end{center}
 \end{frame}
 
@@ -185,7 +188,8 @@
 \subsection{Columns-oriented}
 \begin{frame}
   \begin{center}
-    \structure{\Huge \insertsubsection}
+    \structure{\Huge \insertsubsection} \\ 
+    \includegraphics[height=3cm,keepaspectratio]{columns.png}
   \end{center}
 \end{frame}
 
@@ -194,16 +198,36 @@
   \item<1-> Extension du modèle Key-Value avec des principes du modèle relationnel
   \item<2-> Pour chaque clé, données sous forme de colonnes contenant les informations
   \item<3-> Uniquement les colonnes utiles pour chaque clé
+    \begin{center}
+      \includegraphics[width=0.4\paperwidth,height=0.4\paperheight,keepaspectratio]{nosql-colonnes.png}
+    \end{center}
+  \item<4-> Méta-colonnes dans Cassandra
   \end{itemize}
-  \begin{center}
-    \includegraphics[width=0.3\paperwidth,height=0.3\paperheight,keepaspectratio]{nosql-colonnes.png}
-  \end{center}
 }
 
 \subsection{Graph-oriented}
 \begin{frame}
   \begin{center}
-    \structure{\Huge \insertsubsection}
+    \structure{\Huge \insertsubsection} \\
+    \includegraphics[height=3cm,keepaspectratio]{graph.png}
+  \end{center}
+\end{frame}
+
+\frame{\frametitle{Les bases de données orientées graphes}
+  \begin{itemize}
+  \item<1-> Différentes des autres modèles NoSQL
+  \item<2-> Basées sur la théorie des graphes
+  \item<3-> Noeuds contenant des propriétés et arcs labelisés
+    \begin{center}
+      \includegraphics[width=0.4\paperwidth,height=0.4\paperheight,keepaspectratio]{nosql_graph.png}
+    \end{center}
+  \end{itemize}
+}
+
+\section{Conclusion}
+\begin{frame}
+  \begin{center}
+    \structure{\Huge \insertsection}
   \end{center}
 \end{frame}
 
