@@ -1,0 +1,37 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{thoughtworks}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rees}{R.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RR1}
+  \strng{fullhash}{RR1}
+  \field{sortinit}{R}
+  \field{howpublished}{\url{http://www.thoughtworks.com/articles/nosql-comparison}}
+  \field{title}{NoSQL, no problem. An introduction to NoSQL databases}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

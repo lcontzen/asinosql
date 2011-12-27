@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  9 DEC 2011 18:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  27 DEC 2011 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,40 +433,399 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip44
-) (./asi.aux)
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 42.
+))
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks19
+\float@box=\box26
+\@float@everytoks=\toks20
+\@floatcapt=\box27
+)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2011/06/08 v1.5 programmable bibliographies
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count102
+)
+\etb@tempcnta=\count103
+)
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count104
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@listtotal=\count105
+\c@listcount=\count106
+\c@liststart=\count107
+\c@liststop=\count108
+\c@citecount=\count109
+\c@citetotal=\count110
+\c@multicitecount=\count111
+\c@multicitetotal=\count112
+\c@instcount=\count113
+\c@maxnames=\count114
+\c@minnames=\count115
+\c@maxitems=\count116
+\c@minitems=\count117
+\c@citecounter=\count118
+\c@savedcitecounter=\count119
+\c@uniquelist=\count120
+\c@uniquename=\count121
+\c@refsection=\count122
+\c@refsegment=\count123
+\c@maxextrayear=\count124
+\c@maxextraalpha=\count125
+\c@abbrvpenalty=\count126
+\c@highnamepenalty=\count127
+\c@lownamepenalty=\count128
+\c@maxparens=\count129
+\c@parenlevel=\count130
+\blx@tempcnta=\count131
+\blx@tempcntb=\count132
+\blx@maxsection=\count133
+\blx@maxsegment=\count134
+\blx@notetype=\count135
+\blx@parenlevel@text=\count136
+\blx@parenlevel@foot=\count137
+\labelnumberwidth=\skip45
+\labelalphawidth=\skip46
+\shorthandwidth=\skip47
+\biblabelsep=\skip48
+\bibitemsep=\skip49
+\bibnamesep=\skip50
+\bibinitsep=\skip51
+\bibparsep=\skip52
+\bibhang=\skip53
+\blx@auxin=\read2
+\blx@auxout=\write3
+\c@labelname=\count138
+\c@savedlabelname=\count139
+\c@author=\count140
+\c@savedauthor=\count141
+\c@shortauthor=\count142
+\c@savedshortauthor=\count143
+\c@editor=\count144
+\c@savededitor=\count145
+\c@editora=\count146
+\c@savededitora=\count147
+\c@editorb=\count148
+\c@savededitorb=\count149
+\c@editorc=\count150
+\c@savededitorc=\count151
+\c@shorteditor=\count152
+\c@savedshorteditor=\count153
+\c@bookauthor=\count154
+\c@savedbookauthor=\count155
+\c@translator=\count156
+\c@savedtranslator=\count157
+\c@annotator=\count158
+\c@savedannotator=\count159
+\c@commentator=\count160
+\c@savedcommentator=\count161
+\c@introduction=\count162
+\c@savedintroduction=\count163
+\c@foreword=\count164
+\c@savedforeword=\count165
+\c@afterword=\count166
+\c@savedafterword=\count167
+\c@holder=\count168
+\c@savedholder=\count169
+\c@namea=\count170
+\c@savednamea=\count171
+\c@nameb=\count172
+\c@savednameb=\count173
+\c@namec=\count174
+\c@savednamec=\count175
+\c@institution=\count176
+\c@savedinstitution=\count177
+\c@language=\count178
+\c@savedlanguage=\count179
+\c@location=\count180
+\c@savedlocation=\count181
+\c@organization=\count182
+\c@savedorganization=\count183
+\c@origlocation=\count184
+\c@savedoriglocation=\count185
+\c@origpublisher=\count186
+\c@savedorigpublisher=\count187
+\c@pageref=\count188
+\c@savedpageref=\count189
+\c@publisher=\count190
+\c@savedpublisher=\count191
+\c@lista=\count192
+\c@savedlista=\count193
+\c@listb=\count194
+\c@savedlistb=\count195
+\c@listc=\count196
+\c@savedlistc=\count197
+\c@listd=\count198
+\c@savedlistd=\count199
+\c@liste=\count200
+\c@savedliste=\count201
+\c@listf=\count202
+\c@savedlistf=\count203
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2011/06/08 v1.5 biblatex generic compatibility
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2011/06/08 v1.5 biblatex generic definitions
+\c@smartand=\count204
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2011/06/08 v1.5 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2011/06/08 v1.5 biblatex bibliography style
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2011/06/08 v1.5 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/french.lbx
+File: french.lbx 2011/06/08 v1.5 biblatex localization
+)
+
+Package biblatex Warning: 'babel' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count205
+\@quotereset=\count206
+(./asi.aux)
 \openout1 = `asi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Info: Redefining \degres on input line 11.
-LaTeX Info: Redefining \dots on input line 11.
-LaTeX Info: Redefining \up on input line 11.
-
-(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \degres on input line 17.
+LaTeX Info: Redefining \dots on input line 17.
+LaTeX Info: Redefining \up on input line 17.
+ (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
+\scratchcounter=\count207
 \scratchdimen=\dimen111
-\scratchbox=\box26
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count104
+\scratchbox=\box28
+\nofMPsegments=\count208
+\nofMParguments=\count209
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count210
 \MPscratchDim=\dimen112
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count211
+\makeMPintoPDFobject=\count212
+\everyMPtoPDFconversion=\toks22
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -482,8 +841,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 11.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -491,135 +850,160 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count107
+\c@section@level=\count213
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
  (./asi.out)
 (./asi.out)
-\@outlinefile=\write3
-\openout3 = `asi.out'.
+\@outlinefile=\write4
+\openout4 = `asi.out'.
 
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+\openout3 = `asi-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'asi.bbl' found.
+(./asi.bbl)
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./asi.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-)
-\tf@toc=\write4
-\openout4 = `asi.toc'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.1}) has been already used, duplicat
+e ignored
 <to be read again> 
                    \relax 
-l.28 \newpage
-              [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+l.40 \newpage
+              [1] (./asi.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+)
+\tf@toc=\write5
+\openout5 = `asi.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 83.
- (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (42.52446pt too wide) in paragraph at lines 82--93
+Overfull \hbox (50.54556pt too wide) in paragraph at lines 89--100
 []\T1/cmtt/m/n/10.95 SELECT Actor FROM Characters WHERE Name=''Tyrion Lannister
 '' AND Show=''Game of Thrones'';\T1/cmr/m/n/10.95 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Overfull \hbox (3.0102pt too wide) in paragraph at lines 89--100
+[][][][][][] \T1/cmr/m/n/10.95 Le lan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-[4] [5] <nosql.png, id=111, 621.32124pt x 523.9575pt>
+[4] [5]
+Overfull \hbox (24.69197pt too wide) in paragraph at lines 120--123
+[][][][][][]
+ []
+
+<nosql.png, id=114, 621.32124pt x 523.9575pt>
 File: nosql.png Graphic file (type png)
  <use nosql.png>
-Package pdftex.def Info: nosql.png used on input line 116.
+Package pdftex.def Info: nosql.png used on input line 124.
 (pdftex.def)             Requested size: 341.43306pt x 287.92967pt.
- [6]
-[7 <./nosql.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+ [6] [7 <./nosql.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-<nosql-colonnes.png, id=121, 702.625pt x 246.9225pt>
+<nosql-colonnes.png, id=124, 702.625pt x 246.9225pt>
 File: nosql-colonnes.png Graphic file (type png)
  <use nosql-colonnes.png>
-Package pdftex.def Info: nosql-colonnes.png used on input line 129.
+Package pdftex.def Info: nosql-colonnes.png used on input line 137.
 (pdftex.def)             Requested size: 341.43306pt x 119.99084pt.
 
 [8 <./nosql-colonnes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<nosql_graph.png, id=126, 618.31pt x 437.635pt>
+<nosql_graph.png, id=129, 618.31pt x 437.635pt>
 File: nosql_graph.png Graphic file (type png)
  <use nosql_graph.png>
-Package pdftex.def Info: nosql_graph.png used on input line 136.
+Package pdftex.def Info: nosql_graph.png used on input line 144.
 (pdftex.def)             Requested size: 341.43306pt x 241.66826pt.
  [9 <./nosql_graph.png>]
-Overfull \hbox (16.86488pt too wide) in paragraph at lines 145--156
+Overfull \hbox (24.51534pt too wide) in paragraph at lines 153--164
 []$\T1/cmtt/m/n/10.95 http : / / www . computerworld . com / s / article / 9135
 086 / No _ to _ SQL _ Anti _ database _ movement _ gains _
  []
 
 
-Overfull \hbox (20.86488pt too wide) in paragraph at lines 145--156
+Overfull \hbox (28.51534pt too wide) in paragraph at lines 153--164
 []$\T1/cmtt/m/n/10.95 http : / / blog . xebia . fr / 2010 / 04 / 21 / nosql-[]e
 urope-[]tour-[]dhorizon-[]des-[]bases-[]de-[]donnees-[]nosql/$[] 
  []
 
 
-Overfull \hbox (42.99837pt too wide) in paragraph at lines 145--156
+Overfull \hbox (51.00465pt too wide) in paragraph at lines 153--164
 []$\T1/cmtt/m/n/10.95 http : / / www . techrepublic . com / blog / 10things / 1
 0-[]things-[]you-[]should-[]know-[]about-[]nosql-[]databases /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--156
+Underfull \hbox (badness 10000) in paragraph at lines 153--164
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
 [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./asi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `asi.out' has not changed.
-(rerunfilecheck)             Checksum: A4CFC92EDF6020E94E689CFFDE85A1AC;914.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+(rerunfilecheck)             Checksum: 0FC112B18F0EBA633A18EF2E5FDD77BA;963.
+Package logreq Info: Writing requests to 'asi.run.xml'.
+\openout1 = `asi.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 6086 strings out of 493633
- 86690 string characters out of 3148831
- 179554 words of memory out of 3000000
- 9288 multiletter control sequences out of 15000+200000
- 15091 words of font info for 35 fonts, out of 3000000 for 9000
+ 11518 strings out of 493633
+ 178536 string characters out of 3148831
+ 341160 words of memory out of 3000000
+ 14644 multiletter control sequences out of 15000+200000
+ 16512 words of font info for 37 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 29i,9n,28p,1519b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,9n,35p,1604b,1133s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts
+exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx172
-8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sft
-i1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on asi.pdf (11 pages, 404178 bytes).
+m-super/sfcc1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm080
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sft
+t1000.pfb>
+Output written on asi.pdf (12 pages, 373506 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

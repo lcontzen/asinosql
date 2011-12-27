@@ -6,7 +6,7 @@
 \beamer@sectionintoc {4}{Diff\IeC {\'e}rents cas d'utilisation}{30}{0}{4}
 \beamer@sectionintoc {5}{Les diff\IeC {\'e}rents types de bases de donn\IeC {\'e}es NoSQL}{33}{0}{5}
 \beamer@subsectionintoc {5}{1}{Key-Value}{35}{0}{5}
-\beamer@subsectionintoc {5}{2}{Document-oriented}{42}{0}{5}
-\beamer@subsectionintoc {5}{3}{Columns-oriented}{47}{0}{5}
-\beamer@subsectionintoc {5}{4}{Graph-oriented}{52}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{56}{0}{6}
+\beamer@subsectionintoc {5}{2}{Document-oriented}{41}{0}{5}
+\beamer@subsectionintoc {5}{3}{Columns-oriented}{46}{0}{5}
+\beamer@subsectionintoc {5}{4}{Graph-oriented}{51}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{55}{0}{6}
