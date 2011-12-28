@@ -17,44 +17,44 @@ Database file #1: asi-blx.bib
 Database file #2: asi.bib
 Biblatex version: 1.5
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 2 entries,
+You've used 17 entries,
             5995 wiz_defined-function locations,
-            1121 strings with 8124 characters,
-and the built_in function-call counts, 3746 in all, are:
-= -- 147
-> -- 136
-< -- 26
-+ -- 56
-- -- 48
-* -- 170
-:= -- 431
+            1200 strings with 9810 characters,
+and the built_in function-call counts, 48384 in all, are:
+= -- 2045
+> -- 1577
+< -- 566
++ -- 475
+- -- 454
+* -- 2885
+:= -- 2835
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 8
-chr.to.int$ -- 34
-cite$ -- 2
-duplicate$ -- 306
-empty$ -- 375
-format.name$ -- 48
-if$ -- 854
+call.type$ -- 17
+change.case$ -- 308
+chr.to.int$ -- 58
+cite$ -- 32
+duplicate$ -- 5491
+empty$ -- 5187
+format.name$ -- 825
+if$ -- 11219
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 47
 missing$ -- 0
-newline$ -- 37
-num.names$ -- 41
-pop$ -- 362
+newline$ -- 342
+num.names$ -- 851
+pop$ -- 5050
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 328
 quote$ -- 0
-skip$ -- 231
+skip$ -- 3123
 stack$ -- 0
-substring$ -- 129
-swap$ -- 84
-text.length$ -- 41
-text.prefix$ -- 1
+substring$ -- 1178
+swap$ -- 1746
+text.length$ -- 425
+text.prefix$ -- 16
 top$ -- 1
-type$ -- 64
+type$ -- 633
 warning$ -- 0
-while$ -- 66
+while$ -- 345
 width$ -- 0
-write$ -- 34
+write$ -- 324

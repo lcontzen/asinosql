@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  27 DEC 2011 11:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  28 DEC 2011 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -779,10 +779,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+)
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/french.lbx
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/french.lbx
 File: french.lbx 2011/06/08 v1.5 biblatex localization
 )
 
@@ -794,25 +798,25 @@ Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 (./asi.aux)
 \openout1 = `asi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Info: Redefining \degres on input line 17.
-LaTeX Info: Redefining \dots on input line 17.
-LaTeX Info: Redefining \up on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \degres on input line 18.
+LaTeX Info: Redefining \dots on input line 18.
+LaTeX Info: Redefining \up on input line 18.
  (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count207
@@ -842,7 +846,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -852,9 +856,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count213
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
  (./asi.out)
 (./asi.out)
 \@outlinefile=\write4
@@ -873,8 +877,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'asi.bbl' found.
 (./asi.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+Package biblatex Info: Reference section=0 on input line 18.
+Package biblatex Info: Reference segment=0 on input line 18.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
@@ -882,128 +886,190 @@ ination with the same identifier (name{page.1}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.40 \newpage
+l.41 \newpage
               [1] (./asi.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 13.
+(Font)              <10.95> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 11.
 )
 \tf@toc=\write5
 \openout5 = `asi.toc'.
 
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+ [2] (./asi.lof)
+\tf@lof=\write6
+\openout6 = `asi.lof'.
 
- []
+ [3] [4] [5pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.1}) has been already used, duplicate ignored
 
-[3]
-Overfull \hbox (50.54556pt too wide) in paragraph at lines 89--100
-[]\T1/cmtt/m/n/10.95 SELECT Actor FROM Characters WHERE Name=''Tyrion Lannister
-'' AND Show=''Game of Thrones'';\T1/cmr/m/n/10.95 . 
- []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.99 \subsection
+                {Avantages et inconvénients}] [6] [7]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 124.
 
+<keyvalue2.png, id=170, 194.7275pt x 54.2025pt>
+File: keyvalue2.png Graphic file (type png)
+ <use keyvalue2.png>
+Package pdftex.def Info: keyvalue2.png used on input line 136.
+(pdftex.def)             Requested size: 170.71652pt x 47.52052pt.
+ [8]
+<document2.png, id=182, 301.125pt x 171.64125pt>
+File: document2.png Graphic file (type png)
+ <use document2.png>
+Package pdftex.def Info: document2.png used on input line 166.
+(pdftex.def)             Requested size: 170.71652pt x 97.3127pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
-Overfull \hbox (3.0102pt too wide) in paragraph at lines 89--100
-[][][][][][] \T1/cmr/m/n/10.95 Le lan-
- []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170 C
+       ette famille de SGBDs est une extension du modèle Key-Value. La conc...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170 C
+       ette famille de SGBDs est une extension du modèle Key-Value. La conc...
+ <./keyvalue2.png>] [10pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.4}) has been already used, duplicate ignored
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.193 \subsection
+                 {Les bases de données orientées colonnes} <./document2.png>]
+<columns.png, id=196, 288.07625pt x 193.72375pt>
+File: columns.png Graphic file (type png)
+ <use columns.png>
+Package pdftex.def Info: columns.png used on input line 198.
+(pdftex.def)             Requested size: 170.71652pt x 114.80739pt.
 
- []
-
-[4] [5]
-Overfull \hbox (24.69197pt too wide) in paragraph at lines 120--123
-[][][][][][]
- []
-
-<nosql.png, id=114, 621.32124pt x 523.9575pt>
-File: nosql.png Graphic file (type png)
- <use nosql.png>
-Package pdftex.def Info: nosql.png used on input line 124.
-(pdftex.def)             Requested size: 341.43306pt x 287.92967pt.
- [6] [7 <./nosql.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-<nosql-colonnes.png, id=124, 702.625pt x 246.9225pt>
+<nosql-colonnes.png, id=198, 702.625pt x 246.9225pt>
 File: nosql-colonnes.png Graphic file (type png)
  <use nosql-colonnes.png>
-Package pdftex.def Info: nosql-colonnes.png used on input line 137.
+Package pdftex.def Info: nosql-colonnes.png used on input line 206.
 (pdftex.def)             Requested size: 341.43306pt x 119.99084pt.
 
-[8 <./nosql-colonnes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.210 T
+       out d'abord, lorsqu'une colonne ne contient pas d'informations pour u...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.210 T
+       out d'abord, lorsqu'une colonne ne contient pas d'informations pour u...
+ <./columns.png>] <graphdb2.png, id=206, 250.9375pt x 293.095pt>
+File: graphdb2.png Graphic file (type png)
+
+<use graphdb2.png>
+Package pdftex.def Info: graphdb2.png used on input line 234.
+(pdftex.def)             Requested size: 170.71652pt x 199.40482pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.238 L
+       es bases de données orientées graphe sont quant à elles en rupture...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.238 L
+       es bases de données orientées graphe sont quant à elles en rupture...
+ <./nosql-colonnes.png>] [13pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.267 \section
+              {Conclusion} <./graphdb2.png>] [14pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.10}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.285 \newpage
+              ]
+Overfull \hbox (27.52037pt too wide) in paragraph at lines 290--290
+[]  \T1/cmr/m/n/10.95 Mi-chael \T1/cmr/m/sc/10.95 Di-rolf\T1/cmr/m/n/10.95 .   
+  \T1/cmr/m/it/10.95 Mon-godb : the De-fi-ni-tive Guide\T1/cmr/m/n/10.95 .   Ci
+ty :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 9
+781449381561. 
  []
 
-<nosql_graph.png, id=129, 618.31pt x 437.635pt>
-File: nosql_graph.png Graphic file (type png)
- <use nosql_graph.png>
-Package pdftex.def Info: nosql_graph.png used on input line 144.
-(pdftex.def)             Requested size: 341.43306pt x 241.66826pt.
- [9 <./nosql_graph.png>]
-Overfull \hbox (24.51534pt too wide) in paragraph at lines 153--164
-[]$\T1/cmtt/m/n/10.95 http : / / www . computerworld . com / s / article / 9135
-086 / No _ to _ SQL _ Anti _ database _ movement _ gains _
+
+Overfull \hbox (25.62892pt too wide) in paragraph at lines 290--290
+[]  \T1/cmr/m/n/10.95 Eben \T1/cmr/m/sc/10.95 He-witt\T1/cmr/m/n/10.95 .     \T
+1/cmr/m/it/10.95 Cas-san-dra : the De-fi-ni-tive Guide\T1/cmr/m/n/10.95 .   Cit
+y :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 97
+81449390419. 
  []
 
 
-Overfull \hbox (28.51534pt too wide) in paragraph at lines 153--164
-[]$\T1/cmtt/m/n/10.95 http : / / blog . xebia . fr / 2010 / 04 / 21 / nosql-[]e
-urope-[]tour-[]dhorizon-[]des-[]bases-[]de-[]donnees-[]nosql/$[] 
+Overfull \hbox (15.22289pt too wide) in paragraph at lines 290--290
+[]  \T1/cmr/m/n/10.95 Leh-nardt \T1/cmr/m/sc/10.95 Jan\T1/cmr/m/n/10.95 .     \
+T1/cmr/m/it/10.95 Cou-chdb : the De-fi-ni-tive Guide\T1/cmr/m/n/10.95 .   City 
+:   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 9780
+596155896. 
  []
 
-
-Overfull \hbox (51.00465pt too wide) in paragraph at lines 153--164
-[]$\T1/cmtt/m/n/10.95 http : / / www . techrepublic . com / blog / 10things / 1
-0-[]things-[]you-[]should-[]know-[]about-[]nosql-[]databases /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--164
-
- []
-
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+[15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (./asi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `asi.out' has not changed.
-(rerunfilecheck)             Checksum: 0FC112B18F0EBA633A18EF2E5FDD77BA;963.
+(rerunfilecheck)             Checksum: E108603FBBB3F67969AAA44A14F0A543;1105.
 Package logreq Info: Writing requests to 'asi.run.xml'.
 \openout1 = `asi.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 11518 strings out of 493633
- 178536 string characters out of 3148831
- 341160 words of memory out of 3000000
- 14644 multiletter control sequences out of 15000+200000
- 16512 words of font info for 37 fonts, out of 3000000 for 9000
+ 11638 strings out of 493633
+ 180452 string characters out of 3148831
+ 342589 words of memory out of 3000000
+ 14717 multiletter control sequences out of 15000+200000
+ 18505 words of font info for 42 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 30i,9n,35p,1604b,1133s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts
-/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/c
-m-super/sfcc1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm080
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/f
-onts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sft
-t1000.pfb>
-Output written on asi.pdf (12 pages, 373506 bytes).
+ 34i,12n,49p,1408b,1856s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfcc1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public
+/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1
+000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on asi.pdf (16 pages, 336346 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,6 +16,155 @@
   {}
 \endgroup
 
+\entry{sqlvsnosql}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bartholomew}{B.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BD1}
+  \strng{fullhash}{BD1}
+  \field{sortinit}{B}
+  \field{number}{195}
+  \field{title}{SQL vs NoSQL}
+  \field{journaltitle}{Linux Journal}
+  \field{month}{07}
+  \field{year}{2010}
+\endentry
+
+\entry{dirolf2010mongodb:}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dirolf}{D.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {O'Reilly Media}%
+  }
+  \strng{namehash}{DM1}
+  \strng{fullhash}{DM1}
+  \field{sortinit}{D}
+  \field{isbn}{9781449381561}
+  \field{title}{Mongodb: the Definitive Guide}
+  \list{location}{1}{%
+    {City}%
+  }
+  \field{year}{2010}
+\endentry
+
+\entry{tourhorizon}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Figuière}{F.}%
+     {Michaël}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FM1}
+  \strng{fullhash}{FM1}
+  \field{sortinit}{F}
+  \field{howpublished}{\url{http://blog.xebia.fr/2010/04/21/nosql-europe-tour-dhorizon-des-bases-de-donnees-nosql/}}
+  \field{title}{NoSQL Europe : Tour d’horizon des bases de données NoSQL}
+  \field{month}{04}
+  \field{year}{2010}
+\endentry
+
+\entry{hewitt2010cassandra:}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hewitt}{H.}%
+     {Eben}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {O'Reilly Media}%
+  }
+  \strng{namehash}{HE1}
+  \strng{fullhash}{HE1}
+  \field{sortinit}{H}
+  \field{isbn}{9781449390419}
+  \field{title}{Cassandra: the Definitive Guide}
+  \list{location}{1}{%
+    {City}%
+  }
+  \field{year}{2010}
+\endentry
+
+\entry{jan2010couchdb:}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jan}{J.}%
+     {Lehnardt}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {O'Reilly Media}%
+  }
+  \strng{namehash}{JL1}
+  \strng{fullhash}{JL1}
+  \field{sortinit}{J}
+  \field{isbn}{9780596155896}
+  \field{title}{Couchdb: the Definitive Guide}
+  \list{location}{1}{%
+    {City}%
+  }
+  \field{year}{2010}
+\endentry
+
+\entry{cap}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lynch}{L.}%
+     {Nancy}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gilbert}{G.}%
+     {Seth}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LNGS1}
+  \strng{fullhash}{LNGS1}
+  \field{sortinit}{L}
+  \field{number}{2}
+  \field{pages}{51\bibrangedash 59}
+  \field{title}{Brewer's conjecture and the feasibility of consistent,
+  available, partition-tolerant web services}
+  \field{volume}{33}
+  \field{journaltitle}{ACM SIGACT News}
+  \field{year}{2002}
+\endentry
+
+\entry{redmond2012seven}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Redmond}{R.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pragmatic Bookshelf}%
+  }
+  \strng{namehash}{RE1}
+  \strng{fullhash}{RE1}
+  \field{sortinit}{R}
+  \field{isbn}{9781934356920}
+  \field{title}{Seven Databases in Seven Weeks A Guide to Modern Databases and
+  the Nosql Movement}
+  \list{location}{1}{%
+    {City}%
+  }
+  \field{year}{2012}
+\endentry
+
 \entry{thoughtworks}{misc}{}
   \name{author}{1}{}{%
     {{}%
@@ -29,6 +178,166 @@
   \field{sortinit}{R}
   \field{howpublished}{\url{http://www.thoughtworks.com/articles/nosql-comparison}}
   \field{title}{NoSQL, no problem. An introduction to NoSQL databases}
+\endentry
+
+\entry{russell2011mining}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Russell}{R.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {O'Reilly Media}%
+  }
+  \strng{namehash}{RM1}
+  \strng{fullhash}{RM1}
+  \field{sortinit}{R}
+  \field{isbn}{9781449388348}
+  \field{title}{Mining the Social Web}
+  \list{location}{1}{%
+    {City}%
+  }
+  \field{year}{2011}
+\endentry
+
+\entry{stonebraker}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stonebraker}{S.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM1}
+  \strng{fullhash}{SM1}
+  \field{sortinit}{S}
+  \field{number}{4}
+  \field{title}{SQL Databases v. NoSQL Databases}
+  \field{volume}{54}
+  \field{journaltitle}{Communications of the ACM}
+  \field{month}{04}
+  \field{year}{2010}
+\endentry
+
+\entry{sizefits}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Stonebraker}{S.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cetintemel}{C.}%
+     {Ugur}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{SMCU1}
+  \strng{fullhash}{SMCU1}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 21st International Conference on Data
+  Engineering: 2005}
+  \field{pages}{2 \bibrangedash  11}
+  \field{title}{"One Size Fits All": An Idea Whose Time Has Come and Gone}
+  \list{location}{1}{%
+    {Piscataway}%
+  }
+  \field{year}{2005}
+\endentry
+
+\entry{stuttgart}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Strauch}{S.}%
+     {Christof}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SC1}
+  \strng{fullhash}{SC1}
+  \field{sortinit}{S}
+  \field{howpublished}{Lecture about Selected Topics on Software-Technology
+  Ultra-Large Scale Sites (Stuttgart Media University)}
+  \field{title}{NoSQL Databases}
+\endentry
+
+\entry{neo4jwebsite}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Technologies}{T.}%
+     {Neo}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TN1}
+  \strng{fullhash}{TN1}
+  \field{sortinit}{T}
+  \field{howpublished}{\url{http://neo4j.org/learn}}
+  \field{note}{Consulté le 28/12/2011}
+  \field{title}{What is Neo4j?}
+\endentry
+
+\entry{tiwari2011professional}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tiwari}{T.}%
+     {Shashank}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wrox}%
+  }
+  \strng{namehash}{TS1}
+  \strng{fullhash}{TS1}
+  \field{sortinit}{T}
+  \field{isbn}{9780470942246}
+  \field{title}{Professional Nosql}
+  \list{location}{1}{%
+    {Indianapolis}%
+  }
+  \field{year}{2011}
+\endentry
+
+\entry{tweetspersecond}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Twitter}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{T1}
+  \strng{fullhash}{T1}
+  \field{sortinit}{T}
+  \field{howpublished}{\url{http://yearinreview.twitter.com/en/tps.html}}
+  \field{title}{Year In Review : Tweets per second}
+  \field{year}{2011}
+\endentry
+
+\entry{memoire}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Varley}{V.}%
+     {Ian~Thomas}{I.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VIT1}
+  \strng{fullhash}{VIT1}
+  \field{sortinit}{V}
+  \field{title}{No Relation: The Mixed Blessings of Non-Relational Databases}
+  \list{institution}{1}{%
+    {University of Texas at Austin}%
+  }
+  \field{type}{mathesis}
+  \field{month}{08}
+  \field{year}{2009}
 \endentry
 
 \lossort
