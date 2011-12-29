@@ -95,6 +95,23 @@
   \field{year}{2010}
 \endentry
 
+\entry{toddhoffbuttox}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hoff}{H.}%
+     {Todd}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HT1}
+  \strng{fullhash}{HT1}
+  \field{sortinit}{H}
+  \field{howpublished}{\url{http://highscalability.com/neo4j-graph-database-kicks-buttox}}
+  \field{title}{Neo4j - A Graph Database That Kicks Buttox}
+  \field{month}{06}
+  \field{year}{2009}
+\endentry
+
 \entry{jan2010couchdb:}{book}{}
   \name{author}{1}{}{%
     {{}%

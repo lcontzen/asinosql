@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  28 DEC 2011 17:40
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  28 DEC 2011 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -902,111 +902,130 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@lof=\write6
 \openout6 = `asi.lof'.
 
- [3] [4] [5pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.1}) has been already used, duplicate ignored
+ (./asi.lot)
+\tf@lot=\write7
+\openout7 = `asi.lot'.
+
+ [3] [4] [5pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \subsection
-                {Avantages et inconvénients}] [6] [7]
+l.100 \subsection
+                 {Avantages et inconvénients}] [6] [7]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 124.
+(Font)              <9> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 124.
+(Font)              <5> on input line 125.
 
-<keyvalue2.png, id=170, 194.7275pt x 54.2025pt>
+<keyvalue2.png, id=175, 194.7275pt x 54.2025pt>
 File: keyvalue2.png Graphic file (type png)
  <use keyvalue2.png>
-Package pdftex.def Info: keyvalue2.png used on input line 136.
+Package pdftex.def Info: keyvalue2.png used on input line 137.
 (pdftex.def)             Requested size: 170.71652pt x 47.52052pt.
  [8]
-<document2.png, id=182, 301.125pt x 171.64125pt>
+<document2.png, id=187, 301.125pt x 171.64125pt>
 File: document2.png Graphic file (type png)
  <use document2.png>
-Package pdftex.def Info: document2.png used on input line 166.
+Package pdftex.def Info: document2.png used on input line 167.
 (pdftex.def)             Requested size: 170.71652pt x 97.3127pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.170 C
+l.171 C
        ette famille de SGBDs est une extension du modèle Key-Value. La conc...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.170 C
+l.171 C
        ette famille de SGBDs est une extension du modèle Key-Value. La conc...
  <./keyvalue2.png>] [10pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.4}) has been already used, duplicate ignored
+ier (name{figure.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.193 \subsection
+l.194 \subsection
                  {Les bases de données orientées colonnes} <./document2.png>]
-<columns.png, id=196, 288.07625pt x 193.72375pt>
+<columns.png, id=201, 288.07625pt x 193.72375pt>
 File: columns.png Graphic file (type png)
  <use columns.png>
-Package pdftex.def Info: columns.png used on input line 198.
+Package pdftex.def Info: columns.png used on input line 199.
 (pdftex.def)             Requested size: 170.71652pt x 114.80739pt.
 
-<nosql-colonnes.png, id=198, 702.625pt x 246.9225pt>
+<nosql-colonnes.png, id=203, 702.625pt x 246.9225pt>
 File: nosql-colonnes.png Graphic file (type png)
  <use nosql-colonnes.png>
-Package pdftex.def Info: nosql-colonnes.png used on input line 206.
+Package pdftex.def Info: nosql-colonnes.png used on input line 207.
 (pdftex.def)             Requested size: 341.43306pt x 119.99084pt.
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
- has been already used, duplicate ignored
+[11pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.210 T
-       out d'abord, lorsqu'une colonne ne contient pas d'informations pour u...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
+l.211 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.210 T
-       out d'abord, lorsqu'une colonne ne contient pas d'informations pour u...
- <./columns.png>] <graphdb2.png, id=206, 250.9375pt x 293.095pt>
+l.211 
+       <./columns.png>] <graphdb2.png, id=211, 250.9375pt x 293.095pt>
 File: graphdb2.png Graphic file (type png)
 
 <use graphdb2.png>
-Package pdftex.def Info: graphdb2.png used on input line 234.
+Package pdftex.def Info: graphdb2.png used on input line 237.
 (pdftex.def)             Requested size: 170.71652pt x 199.40482pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 L
+l.241 L
        es bases de données orientées graphe sont quant à elles en rupture...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 L
+l.241 L
        es bases de données orientées graphe sont quant à elles en rupture...
- <./nosql-colonnes.png>] [13pdfTeX warning (ext4): destination with the same id
-entifier (name{figure.9}) has been already used, duplicate ignored
+ <./nosql-colonnes.png>] <graphdb3.jpg, id=218, 501.875pt x 225.84375pt>
+File: graphdb3.jpg Graphic file (type jpg)
+
+<use graphdb3.jpg>
+Package pdftex.def Info: graphdb3.jpg used on input line 245.
+(pdftex.def)             Requested size: 341.43306pt x 153.65097pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--248
+
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.267 \section
-              {Conclusion} <./graphdb2.png>] [14pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.10}) has been already used, duplicate
- ignored
+l.250 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.285 \newpage
+l.250 
+       <./graphdb2.png> <./graphdb3.jpg>] [14pdfTeX warning (ext4): destination
+ with the same identifier (name{table.5}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 \newpage
               ]
-Overfull \hbox (27.52037pt too wide) in paragraph at lines 290--290
+Overfull \hbox (27.52037pt too wide) in paragraph at lines 294--294
 []  \T1/cmr/m/n/10.95 Mi-chael \T1/cmr/m/sc/10.95 Di-rolf\T1/cmr/m/n/10.95 .   
   \T1/cmr/m/it/10.95 Mon-godb : the De-fi-ni-tive Guide\T1/cmr/m/n/10.95 .   Ci
 ty :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 9
@@ -1014,7 +1033,7 @@ ty :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 9
  []
 
 
-Overfull \hbox (25.62892pt too wide) in paragraph at lines 290--290
+Overfull \hbox (25.62892pt too wide) in paragraph at lines 294--294
 []  \T1/cmr/m/n/10.95 Eben \T1/cmr/m/sc/10.95 He-witt\T1/cmr/m/n/10.95 .     \T
 1/cmr/m/it/10.95 Cas-san-dra : the De-fi-ni-tive Guide\T1/cmr/m/n/10.95 .   Cit
 y :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 97
@@ -1022,31 +1041,31 @@ y :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 97
  []
 
 
-Overfull \hbox (15.22289pt too wide) in paragraph at lines 290--290
+Overfull \hbox (15.22289pt too wide) in paragraph at lines 294--294
 []  \T1/cmr/m/n/10.95 Leh-nardt \T1/cmr/m/sc/10.95 Jan\T1/cmr/m/n/10.95 .     \
 T1/cmr/m/it/10.95 Cou-chdb : the De-fi-ni-tive Guide\T1/cmr/m/n/10.95 .   City 
 :   O'Reilly Me-dia,   2010.   \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 9780
 596155896. 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
 [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
  (./asi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `asi.out' has not changed.
 (rerunfilecheck)             Checksum: E108603FBBB3F67969AAA44A14F0A543;1105.
 Package logreq Info: Writing requests to 'asi.run.xml'.
 \openout1 = `asi.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
  ) 
 Here is how much of TeX's memory you used:
- 11638 strings out of 493633
- 180452 string characters out of 3148831
- 342589 words of memory out of 3000000
- 14717 multiletter control sequences out of 15000+200000
+ 11653 strings out of 493633
+ 180640 string characters out of 3148831
+ 343589 words of memory out of 3000000
+ 14724 multiletter control sequences out of 15000+200000
  18505 words of font info for 42 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  34i,12n,49p,1408b,1856s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1066,10 +1085,10 @@ ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public
 /cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1
 000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on asi.pdf (16 pages, 336346 bytes).
+Output written on asi.pdf (16 pages, 372104 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -42,6 +42,7 @@
 \tableofcontents
 \newpage
 \listoffigures
+\listoftables
 \newpage
 
 %% \begin{spacing}{1.5}
@@ -64,7 +65,7 @@ Dans une base de données relationnelle, les données sont organisées sous form
 Le langage SQL sera ensuite utilisé afin d'effectuer des transactions dans la base de données, une transaction étant une action telle qu'insérer une nouvelle entrée dans une table, mettre à jour un champ ou extraire des informations. SQL offre plusieurs types de transactions pouvant être combinées telles que la sélection, la jointure (sélection d'éléments à partir d'informations contenues dans différentes tables), le produit cartésien et bien d'autres. 
 \subsection{Exemple}
 Imaginons une table Persons contenant des informations sur des personnes et établissons que les champs nécéssaires à la description d'une personne soient son identificateur unique (un nombre différent pour chacun), sa ville de naissance et son année de naissance. Un telle table pourrait être :
-\begin{figure}[H]
+\begin{table}[H]
   \centering
   \begin{center}
     \begin{tabular}{| c | l | l | l | l |}
@@ -87,7 +88,7 @@ Imaginons une table Persons contenant des informations sur des personnes et éta
     \end{tabular}
   \end{center} 
   \caption{Exemple de table dans une base de données relationnelle.}
-\end{figure}
+\end{table}
 Par souci de concision pour cet exemple nous nous limiterons à cette table et ommettrons d'en définir d'autres ainsi que de définir le schéma entité-association.
 
 La requête effectuée afin d'extraire l'entièreté des informations de la table Persons pourra être : \\
@@ -102,7 +103,7 @@ Le modèle relationnel repose sur des fondements mathématiques théoriques tels
 Cette même évolution du web oblige les SGBD à faire face à d'autres défis que le modèle relationnel ne sait pas relever, ou que difficilement. Il est utile, voire nécéssaire, de pouvoir redimmensionner facilement et à la volée les moyens techniques soutenant les bases de données (nombre de serveurs utilisés par exemple) ainsi que d'avoir la possibilité de distribuer les bases de données dans divers data centers à travers le monde. Pouvoir changer la structure de la base de données pour offrir de nouvelles fonctionnalités à l'utilisateur tout en offrant une continuité de service est tout aussi primordial.
 
 \section{ACID et CAP}
-Les deux mouvances de systèmes de gestion de bases de données nous occupant ici sont basées sur des ensembles de principes de base différents connus sous les acronymes ACID (modèle relationnel) et CAP (mouvance NoSQL). Il est toutefois à noter que certains SGBD de la famille NoSQL tels que Neo4j (présenté section \ref{neo4j}) respectent ACID.
+Les deux mouvances de systèmes de gestion de bases de données nous occupant ici sont basées sur des ensembles de principes de base différents connus sous les acronymes ACID (modèle relationnel) et CAP (mouvance NoSQL). Il est toutefois à noter que certains SGBD de la famille NoSQL tels que Neo4j (présenté section \ref{sec:graph}) respectent ACID.
 \subsection{ACID}
 ACID est l'acronyme de \textbf{A}tomicity, \textbf{C}onsistency, \textbf{I}solation and \textbf{D}urability. L'atomicité garantit qu'une transaction est soit une réussite, soit un échec, sans statut intermédiaire. Ceci implique que si une transaction échoue l'entièreté des modifications qu'elle apportait devra être annulée. Par exemple, il sera impossible qu'une insertion échoue mais qu'une partie des données la composant (\colorbox{BrickRed}{\textbf{FIXME}}) soient tout de même présentes dans la base de données. \\
 Le principe de consistance signifie que la base de données est dans un état correct avant et après chaque transaction. L'atomicité et la consistance sont donc deux principes intimement liés. \\
@@ -141,7 +142,7 @@ Les bases de données de type Key-Value (clé-valeur) peuvent être vues comme d
 
 Techniquement, les données seront insérées dans une table partitionnée utilisant un mécanisme de hachage consistant, ce qui permet de répartir uniformément la charge et la quantité de données entre les différentes tables. Ces données seront ensuite répliquées sur d'autres serveurs pouvant contenir chacun plusieurs partitions afin de limiter le nombre minimum d'instances de réplication nécessaires. Il reste alors la consistance à garantir. Pour avoir une consistance parfaite, il serait nécessaire de s'assurer que chaque changement dans une table est bien répliqué dans toutes les instances contenant cette partition mais ceci a évidement un coût niveau efficacité. On va alors définir un taux de consistance souhaité, et s'assurer que au minimum ce pourcentage là des instances est mis à jour. Un mécanisme similaire sera mis en place pour assurer la consistance lors des écritures. Ceci permet de perdre un peu de la certitude de la consistance des données mais d'optimiser l'efficacité du service.
 %\subsubsection*{Redis} 
-\begin{figure}[H]
+\begin{table}[H]
   \centering
   \begin{tabular}{l | l}
     \textbf{Nom} & Redis \\
@@ -157,7 +158,7 @@ Techniquement, les données seront insérées dans une table partitionnée utili
     \textbf{Informations} & \url{http://redis.io/}
   \end{tabular}
   \caption{Présentation de Redis, SGBD Key-Value}
-\end{figure}
+\end{table}
 \subsection{Les bases de données orientées document}
 %\subsubsection*{Description}
 \begin{figure}[H]
@@ -173,7 +174,7 @@ L'implémentation d'une base de données orientée document sera sensiblement la
 
 Cette famille, dont le but est de prendre le meilleur des deux mouvances, permettra par exemple de stocker une grande quantité d'informations qui aurait été plus limitée dans le modèle relationnel parfois trop rigide.
 %\subsubsection*{CouchDB et MongoDB}
-\begin{figure}[H]
+\begin{table}[H]
   \centering
   \begin{tabular}{l | l | l}
     \textbf{Nom} & CouchDB & MongoDB \\
@@ -189,7 +190,7 @@ Cette famille, dont le but est de prendre le meilleur des deux mouvances, permet
     \textbf{Informations} & \url{http://couchdb.apache.org/} & \url{http://www.mongodb.org/}
   \end{tabular}
   \caption{Présentation de CouchDB et MongoDB, SGBD orientés document}
-\end{figure}
+\end{table}
 \subsection{Les bases de données orientées colonnes}
 %\subsubsection*{Description}
 \begin{figure}[H]
@@ -207,13 +208,15 @@ Les bases de données orientées colonnes sont elles aussi une extension du type
   \end{center}
   \caption{Modèle orienté colonnes : différence d'utilisation mémoire\cite{tourhorizon}}
 \end{figure}
+
 Tout d'abord, lorsqu'une colonne ne contient pas d'informations pour une clé, la colonne n'existe simplement pas pour elle, ce qui amène à un gain d'espace disque considérable lorsque la base de données contient (ou plutôt devrait contenir en modèle relationnel) plusieurs millions de colonnes. Ensuite, l'ajout de colonnes se faisant à la volée et uniquement pour les entités concernées, l'adaptation de la structure aux nouveaux besoins ou aux changements de design ou de code est immédiate et ne demande aucun effort particulier. Ce modèle permet aussi de faire des requêtes simples sur les données, bien plus simples que leur équivalent SQL.
 
-Apache Cassandra, une base de données orientées colonnes développée par Facebook, étends encore ce modèle en proposant la possibilité de faire des méta-colonnes, c'est à dire de contenir des colonnes dans des colonnes. Cela permet une meilleure organisation des données, et, surtout, une optimisation des requêtes vu que l'ensemble de colonnes à considérer lors d'une requête n'est qu'un sous-ensemble précis défini à l'avance.
+Apache Cassandra, une base de données orientées colonnes, étends encore ce modèle en proposant la possibilité de faire des méta-colonnes, c'est à dire de contenir des colonnes dans des colonnes. Cela permet une meilleure organisation des données, et, surtout, une optimisation des requêtes vu que l'ensemble de colonnes à considérer lors d'une requête n'est qu'un sous-ensemble précis défini à l'avance.
 %\subsubsection*{Apache Cassandra}
-\begin{figure}[H]
+\begin{table}[H]
   \centering
   \begin{tabular}{l | l}
+    \textbf{Nom} & Apache Cassandra \\
     \textbf{Créateurs} & Avinash Lakshman et Prashant Malik \\
     \textbf{Apparition} & 2008 \\
     \textbf{Financement} & Apache Software Foundation \\
@@ -225,8 +228,8 @@ Apache Cassandra, une base de données orientées colonnes développée par Face
     \textbf{Informations} & \url{http://cassandra.apache.org/}
   \end{tabular}
   \caption{Présentation de Apache Cassandra, SGBD orienté colonnes}
-\end{figure} 
-\subsection{Les bases de données orientées graphe}
+\end{table} 
+\subsection{Les bases de données orientées graphe} \label{sec:graph}
 %\subsubsection*{Description}
 \begin{figure}[H]
   \centering
@@ -235,23 +238,24 @@ Apache Cassandra, une base de données orientées colonnes développée par Face
   \end{center}
   \caption{Modèle orienté graphe\cite{neo4jwebsite}}
 \end{figure}
-Les bases de données orientées graphe sont quant à elles en rupture avec les autres catégories de la mouvance NoSQL. En effet, elles sont basées sur la théorie des graphes et ne partagent pas beaucoup de points techniques avec les autres. Les données seront donc organisées en noeuds, arcs et propriétés. 
-%% \begin{figure}[H]
-%%   \centering
-%%   \begin{center}
-%%     \includegraphics[width=12cm]{nosql_graph.png}
-%%   \end{center}
-%%   \caption{Modèle orienté graphe : Exemple basique}
-%% \end{figure}
+Les bases de données orientées graphe sont quant à elles en rupture avec les autres catégories de la mouvance NoSQL. En effet, elles sont basées sur la théorie des graphes et ne partagent pas beaucoup de points techniques avec les autres. Les données seront donc organisées en noeuds, arcs et propriétés. \\
+\begin{figure}[H]
+  \centering
+  \begin{center}
+    \includegraphics[width=12cm]{graphdb3.jpg}
+  \end{center}
+  \caption{Modèle orienté graphe : Exemple basique sous forme schématique\cite{toddhoffbuttox}}
+\end{figure} 
 Les noeuds, que l'on pourrait comparer à des objets dans la programmation orientée objet, représentent des entités auxquelles sont associées des propriétés et les arcs qui les relient représentent les relations existant entre ces entités et fournissent des informations à leurs propos. Ceci apporte une flexibilité absolue puisqu'il n'y a pas besoin d'établir un schéma de la structure : chaque noeud ou arc peut-être rajouté n'importe quand et contenir n'importe quelle information désirée. Pour les cas où avoir un schéma peut être utile, voire nécessaire, il est tout de même possible d'en définir un qui sera après utilisé pour garantir une cohérence (\colorbox{BrickRed}{\textbf{FIXME}}) entre les noeuds. La théorie des graphes et ses applications étant très utilisée en informatique, il existe déjà des algorithmes très poussés pour le parcours et la recherche par exemple.
 
 Les bases de données orientées graphes permettent d'obtenir certaines opérations extrêmement simplement. Il serait par exemple possible dans un réseau social de calculer le niveau de séparation entre deux personnes en calculant simplement la distance entre les noeuds concernés.
 
 Il est à noter que ce modèle est apparu plusieurs années avant la mouvance NoSQL et certaines de ses implémentations telles que Neo4j respectent ACID. Le point commun entre ce modèle et les autres composant cette mouvance lui permettant d'être considéré comme en faisant partie est son rejet du SQL. \colorbox{BrickRed}{\textbf{FIXME}} 
 %\subsubsection*{Neo4j}\label{neo4j}
-\begin{figure}[H] \label{neo4j}
+\begin{table}[H]
   \centering
   \begin{tabular}{l | l}
+    \textbf{Nom} & Neo4j \\
     \textbf{Créateurs} & Neo Technologies \\
     \textbf{Apparition} & 2003 \\
     \textbf{Financement} & Apache Software Foundation \\
@@ -263,7 +267,7 @@ Il est à noter que ce modèle est apparu plusieurs années avant la mouvance No
     \textbf{Informations} & \url{http://neo4j.org/}
   \end{tabular}
   \caption{Présentation de Neo4j, SGBD orienté graphe}
-\end{figure}
+\end{table}
 \section{Conclusion}
 La mouvance SQL n'est donc pas un mouvement de rejet en bloc des idées du modèle relationnel. Il s'agit plutôt d'un mouvement d'adaptation du milieu \colorbox{BrickRed}{\textbf{FIXME}} des systèmes de gestion de bases de données aux nouveaux besoins d'applications principalement issues de l'évolution du web. Les concepts de base du modèle relationnel sont remis en question et chaque famille de la mouvance NoSQL va en extraire ce qui lui corresponds le mieux et adapter cette sélection à son esprit.
 
