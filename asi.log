@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  28 DEC 2011 18:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.30)  29 DEC 2011 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,13 +918,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 125.
 
-<keyvalue2.png, id=175, 194.7275pt x 54.2025pt>
+<keyvalue2.png, id=177, 194.7275pt x 54.2025pt>
 File: keyvalue2.png Graphic file (type png)
  <use keyvalue2.png>
 Package pdftex.def Info: keyvalue2.png used on input line 137.
 (pdftex.def)             Requested size: 170.71652pt x 47.52052pt.
  [8]
-<document2.png, id=187, 301.125pt x 171.64125pt>
+<document2.png, id=189, 301.125pt x 171.64125pt>
 File: document2.png Graphic file (type png)
  <use document2.png>
 Package pdftex.def Info: document2.png used on input line 167.
@@ -950,13 +950,13 @@ ier (name{figure.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.194 \subsection
                  {Les bases de données orientées colonnes} <./document2.png>]
-<columns.png, id=201, 288.07625pt x 193.72375pt>
+<columns.png, id=203, 288.07625pt x 193.72375pt>
 File: columns.png Graphic file (type png)
  <use columns.png>
 Package pdftex.def Info: columns.png used on input line 199.
 (pdftex.def)             Requested size: 170.71652pt x 114.80739pt.
 
-<nosql-colonnes.png, id=203, 702.625pt x 246.9225pt>
+<nosql-colonnes.png, id=205, 702.625pt x 246.9225pt>
 File: nosql-colonnes.png Graphic file (type png)
  <use nosql-colonnes.png>
 Package pdftex.def Info: nosql-colonnes.png used on input line 207.
@@ -974,7 +974,7 @@ l.211
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.211 
-       <./columns.png>] <graphdb2.png, id=211, 250.9375pt x 293.095pt>
+       <./columns.png>] <graphdb2.png, id=213, 250.9375pt x 293.095pt>
 File: graphdb2.png Graphic file (type png)
 
 <use graphdb2.png>
@@ -994,7 +994,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
                                                   \fi \fi 
 l.241 L
        es bases de données orientées graphe sont quant à elles en rupture...
- <./nosql-colonnes.png>] <graphdb3.jpg, id=218, 501.875pt x 225.84375pt>
+ <./nosql-colonnes.png>] <graphdb3.jpg, id=220, 501.875pt x 225.84375pt>
 File: graphdb3.jpg Graphic file (type jpg)
 
 <use graphdb3.jpg>
@@ -1076,19 +1076,21 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
-super/sfcc1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.
-pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share
-/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public
-/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1
-000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on asi.pdf (16 pages, 372104 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx120
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfr
+m1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-di
+st/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/
+public/cm-super/sftt1000.pfb>
+Output written on asi.pdf (16 pages, 386918 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 320 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
  67 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
